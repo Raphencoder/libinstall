@@ -1,0 +1,7 @@
+setup.py
+libinstall.egg-info/PKG-INFO
+libinstall.egg-info/SOURCES.txt
+libinstall.egg-info/dependency_links.txt
+libinstall.egg-info/entry_points.txt
+libinstall.egg-info/requires.txt
+libinstall.egg-info/top_level.txt

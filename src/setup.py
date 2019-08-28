@@ -8,6 +8,6 @@ setup(
         'Click',
     ],
     entry_points={
-        'console_scripts': ['libinstall=lib.script:hello'],
+        'console_scripts': ['libinstall=lib.script:cli'],
     },
     )

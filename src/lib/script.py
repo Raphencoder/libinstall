@@ -58,15 +58,15 @@ def lunch_script(file_name):
             lunch_script(file_name)
     return
 
-
-
 @click.command()
-def hello(all_files=True):
+@click.option('--all', is_flag=True, help="Run all the file in current directory")
+@click.argument('file')
+def cli(all, file):
     click.echo("Thanks for using lib_install\n\n")
-    if all_files:
+    if all:
         python_files = [f for f in listdir(mypath) if ispythonfile(join(mypath, f))]
         try:
-            python_files.remove("script.py")
+            python_files.remove("setup.py")
         except ValueError:
             pass
         for file_name in python_files:
@@ -74,7 +74,7 @@ def hello(all_files=True):
             click.echo("Starting script for "+file_name+"")
             lunch_script(file_name)
     else:
-        lunch_script(file_name)
-if __name__ == '__main__':
-	hello()
+        lunch_script(file)
+
+
 

@@ -1,0 +1,3 @@
+[console_scripts]
+libinstall = lib.script:cli
+
