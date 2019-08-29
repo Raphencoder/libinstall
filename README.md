@@ -1,12 +1,35 @@
-# Libinstall
-Tired of python repository without requirement ? libinstall will install automatically all libraries needed for the projet.
+## Description
 
-# Todo:
+### This project is under construction.
 
-  * Handle "all" options and clarify what's the most effective.
-  * Add timeout for api files.
+  Libinstall allows you to install all requirements python libraries of a repo that don't contain 'requirements.txt.'
 
-# Description
+  It's using the return of the shell to know which libraries is missing and installed it.
 
-  This project is under construction
-  
+  Many errors still occured thought.
+
+## How to use:
+
+  First you need to install the library:
+
+````
+pip install libinstall
+````
+
+Then go to the folder you want to install the libraries to, and simply run the main file of the project.
+
+For example the main file is a file named 'main.py' then simply run
+
+````
+libinstall main.py
+````
+
+There also is a "--all" option that allows you to run all file in the directory. But you still have to put a file after -all options.
+
+````
+libinstall --all main.py
+````
+
+## Suggestion
+
+If you have some errors or suggestion or you want to improve this project, feel free to create a pull request or open an issue.
