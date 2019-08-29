@@ -23,7 +23,7 @@ setup(
         'Click',
     ],
     entry_points={
-        'console_scripts': ['libinstall=lib.script:cli'],
+        'console_scripts': ['libinstall=libinstall.script:cli'],
     },
     license="BSD 3-Clause License"
     )
