@@ -18,7 +18,7 @@ pip install libinstall
 
 Then go to the folder you want to install the libraries to, and simply run the main file of the project.
 
-For example the main file is a file named 'main.py' then simply run
+For example if the main file is a file named 'main.py' then simply run
 
 ````
 libinstall main.py
