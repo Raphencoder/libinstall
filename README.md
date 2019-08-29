@@ -3,8 +3,8 @@ Tired of python repository without requirement ? libinstall will install automat
 
 # Todo:
 
-  * Handle the package installation and add options
-  * Add timeout for api files 
+  * Handle "all" options and clarify what's the most effective.
+  * Add timeout for api files.
 
 # Description
 
