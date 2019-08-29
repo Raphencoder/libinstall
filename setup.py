@@ -16,7 +16,7 @@ setup(
     "Natural Language :: French",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3.7",
-    "Topic :: Installation",
+    "Topic :: Software Development :: Libraries :: Python Modules",
 ],
     py_modules=['libinstall'],
     install_requires=[
